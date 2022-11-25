@@ -1,0 +1,137 @@
+@font-face {
+    src: url(fonts/DIGITALDREAM.ttf);
+    font-family: digitalDream;
+  }
+body {
+    margin: 0;
+    background: #2a9d8f; 
+}
+
+#teams{
+    font-family: digitalDream;
+    text-align: center;
+    margin-top: 25px;
+    min-height: 50px;
+    max-height: 50px;
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    background: chocolate;
+    border: 2px solid wheat;
+    border-radius: 7px;
+    color: wheat;
+    
+}
+
+h3 {
+    font-family: digitalDream;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    background: transparent;
+}
+
+h2 {
+    font-family: digitalDream;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 15px
+}
+
+input {
+    margin-top: 25px;
+    margin-left: 15px;
+    background: wheat;
+    border: 3px solid chocolate;
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#incrt-home1, #incrt-home2, #incrt-home3, #incrt-guest1, #incrt-guest2, #incrt-guest3{
+    text-align: center;
+    font-family: digitalDream;
+    font-size: 15px;
+    background: transparent;
+    border: 2px solid wheat;
+    border-radius: 7px;
+    color: wheat;
+    padding: 5px;
+}
+
+#incrt-foul-home, #incrt-foul-guest, #incrt-period{
+    text-align: center;
+    font-family: digitalDream;
+    font-size: 15px;
+    background: transparent;
+    border: 2px solid wheat;
+    border-radius: 7px;
+    color: wheat;
+    padding: 5px;
+    margin: 0px 80px;
+}
+
+#ng-btn{
+    text-align: center;
+    font-family: digitalDream;
+    font-size: 20px;
+    font-weight: bold;
+    background: chocolate;
+    border: 2px solid wheat;
+    border-radius: 7px;
+    color: black;
+    padding: 25px;
+    margin-top: 40px; 
+    margin-left: 32px;  
+}
+
+.incrt-btns {
+    text-align: center;
+}
+
+#guest-scr, #home-scr {
+    font-family: digitalDream;
+    font-size: 45px;
+    font-weight: bold;
+    display: block;
+    background: black;
+    color: red;
+    text-align: center;
+    margin: 20px;
+    padding: 20px 45px;
+    border-radius: 7px;
+}
+
+#period-scr, #time-scr {
+    display: block;
+    font-family: digitalDream; 
+    font-size: 25px;
+    font-weight: bold;
+    background: black;
+    color: red;
+    text-align: center;
+    margin: 10px 30px;
+    padding: 20px 5px;
+    border-radius: 7px;
+}
+
+#foul-scr-home, #foul-scr-guest{
+    display: block;
+    font-family: digitalDream;
+    font-size: 25px;
+    font-weight: bold;
+    background: black;
+    color: red;
+    text-align: center;
+    margin: 20px;
+    padding: 20px 25px;
+    border-radius: 7px;
+
+}
+

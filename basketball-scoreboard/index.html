@@ -1,0 +1,47 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <span id="home-scr"></span>
+                <div class="incrt-btns">
+                    <button id="incrt-home1" onclick="incrementHome(this.id)">+1</button>
+                    <button id="incrt-home2" onclick="incrementHome(this.id)">+2</button>
+                    <button id="incrt-home3" onclick="incrementHome(this.id)">+3</button>
+                    <h2>FOUL</h2>
+                    <div id="foul-scr-home"></div>
+                    <button id="incrt-foul-home" onclick="incrementHomeFoul()">FH</button>
+                    <input id="home-inpt" placeholder="Enter home team's name" maxlength="3">
+
+                </div>
+            </div>
+            <div>
+                  <div id="teams">/</div>
+                  <span id="time-scr"></span> 
+                  <h2>PERIOD</h2>
+                  <div id="period-scr"></div>
+                  <button id="incrt-period" onclick="incrementPeriod()">P+</button> 
+                  <br><button id="ng-btn" onclick="timer()">START</button>
+ 
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <span id="guest-scr"></span>
+                 <div class="incrt-btns">
+                    <button id="incrt-guest1" onclick="incrementGuest(this.id)">+1</button>
+                    <button id="incrt-guest2" onclick="incrementGuest(this.id)">+2</button>
+                    <button id="incrt-guest3" onclick="incrementGuest(this.id)">+3</button>
+                    <h2>FOUL</h2>
+                    <div id="foul-scr-guest"></div>
+                    <button id="incrt-foul-guest" onclick="incrementGuestFoul()">FG</button>
+                    <input id="guest-inpt" placeholder="Enter guest team's name" maxlength="3">
+                </div>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
